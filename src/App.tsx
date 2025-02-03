@@ -291,7 +291,7 @@ function App() {
   };
 
   return (
-    <Box w="full" h="100vh" m="auto" p={5}>
+    <Box w="full" h="100vh" m="auto" p={5} maxH="100vh">
       <Flex gap={6} h="full">
         <VStack w="400px" spacing={5} align="stretch">
           <Heading>{editingEvent ? '일정 수정' : '일정 추가'}</Heading>
